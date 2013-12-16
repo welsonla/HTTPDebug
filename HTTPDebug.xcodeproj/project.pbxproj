@@ -114,6 +114,7 @@
 		0E07DF30185EEEC800EEFD66 /* HTTPDebug */ = {
 			isa = PBXGroup;
 			children = (
+				0E07DF5E185EF6EA00EEFD66 /* lib */,
 				0E07DF3C185EEEC800EEFD66 /* AppDelegate.h */,
 				0E07DF3D185EEEC800EEFD66 /* AppDelegate.m */,
 				0E07DF3F185EEEC800EEFD66 /* MainMenu.xib */,
@@ -151,6 +152,13 @@
 				0E07DF50185EEEC900EEFD66 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E07DF5E185EF6EA00EEFD66 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -452,6 +460,7 @@
 				0E07DF5A185EEEC900EEFD66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E07DF5B185EEEC900EEFD66 /* Build configuration list for PBXNativeTarget "HTTPDebugTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +469,7 @@
 				0E07DF5D185EEEC900EEFD66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
