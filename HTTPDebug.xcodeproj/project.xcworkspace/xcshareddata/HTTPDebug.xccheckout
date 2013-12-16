@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>14E3E97D-F3A5-41D6-B9E4-5C1A2E3002CB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HTTPDebug</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C123641C-316F-48F1-A2CA-C51182817C9B</key>
+		<string>ssh://github.com/welsonla/HTTPDebug.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HTTPDebug.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C123641C-316F-48F1-A2CA-C51182817C9B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/welsonla/HTTPDebug.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C123641C-316F-48F1-A2CA-C51182817C9B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C123641C-316F-48F1-A2CA-C51182817C9B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HTTPDebug</string>
+		</dict>
+	</array>
+</dict>
+</plist>
