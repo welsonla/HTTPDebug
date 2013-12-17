@@ -26,6 +26,7 @@ typedef enum {
 @property (weak) IBOutlet NSTextField *actionField;
 @property (unsafe_unretained) IBOutlet NSTextView *responseTextView;
 @property (weak) IBOutlet WebView *responseWebView;
+@property (weak) IBOutlet NSTabView *tabView;
 
 
 

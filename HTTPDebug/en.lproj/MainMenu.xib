@@ -682,7 +682,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <font key="font" metaFont="system"/>
                         <tabViewItems>
-                            <tabViewItem label="数据返回" identifier="1" id="623">
+                            <tabViewItem label="数据返回" identifier="0" id="623">
                                 <view key="view" id="626">
                                     <rect key="frame" x="10" y="33" width="447" height="332"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -719,7 +719,7 @@
                                     </subviews>
                                 </view>
                             </tabViewItem>
-                            <tabViewItem label="WebView" identifier="" id="ZC4-TM-Dxs">
+                            <tabViewItem label="WebView" identifier="1" id="ZC4-TM-Dxs">
                                 <view key="view" id="yrK-PC-uft">
                                     <rect key="frame" x="10" y="33" width="447" height="332"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -730,12 +730,6 @@
                                             <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12"/>
                                         </webView>
                                     </subviews>
-                                </view>
-                            </tabViewItem>
-                            <tabViewItem label="Header" identifier="" id="Mar-A0-YpI">
-                                <view key="view" id="eSQ-5o-iLa">
-                                    <rect key="frame" x="10" y="33" width="447" height="332"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </view>
                             </tabViewItem>
                             <tabViewItem label="POST参数设置" identifier="2" id="624">
@@ -770,7 +764,7 @@
                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <textField verticalHuggingPriority="750" id="633">
+                                        <textField verticalHuggingPriority="750" tag="100" id="633">
                                             <rect key="frame" x="83" y="240" width="130" height="22"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="634">
@@ -779,7 +773,7 @@
                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <textField verticalHuggingPriority="750" id="635">
+                                        <textField verticalHuggingPriority="750" tag="101" id="635">
                                             <rect key="frame" x="84" y="200" width="130" height="22"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="636">
@@ -788,7 +782,7 @@
                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <textField verticalHuggingPriority="750" id="637">
+                                        <textField verticalHuggingPriority="750" tag="102" id="637">
                                             <rect key="frame" x="83" y="160" width="130" height="22"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="638">
@@ -824,7 +818,7 @@
                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <textField verticalHuggingPriority="750" id="645">
+                                        <textField verticalHuggingPriority="750" tag="200" id="645">
                                             <rect key="frame" x="278" y="240" width="130" height="22"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="646">
@@ -833,7 +827,7 @@
                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <textField verticalHuggingPriority="750" id="647">
+                                        <textField verticalHuggingPriority="750" tag="201" id="647">
                                             <rect key="frame" x="278" y="200" width="130" height="22"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="648">
@@ -842,7 +836,7 @@
                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <textField verticalHuggingPriority="750" id="649">
+                                        <textField verticalHuggingPriority="750" tag="202" id="649">
                                             <rect key="frame" x="278" y="160" width="130" height="22"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="650">
@@ -860,7 +854,7 @@
                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <textField verticalHuggingPriority="750" id="656">
+                                        <textField verticalHuggingPriority="750" tag="103" id="656">
                                             <rect key="frame" x="83" y="118" width="130" height="22"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="661">
@@ -878,7 +872,7 @@
                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <textField verticalHuggingPriority="750" id="658">
+                                        <textField verticalHuggingPriority="750" tag="203" id="658">
                                             <rect key="frame" x="278" y="118" width="130" height="22"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="659">
@@ -896,7 +890,7 @@
                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <textField verticalHuggingPriority="750" id="664">
+                                        <textField verticalHuggingPriority="750" tag="105" id="664">
                                             <rect key="frame" x="83" y="43" width="130" height="22"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="669">
@@ -914,7 +908,7 @@
                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <textField verticalHuggingPriority="750" id="666">
+                                        <textField verticalHuggingPriority="750" tag="205" id="666">
                                             <rect key="frame" x="278" y="43" width="130" height="22"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="667">
@@ -932,7 +926,7 @@
                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <textField verticalHuggingPriority="750" id="672">
+                                        <textField verticalHuggingPriority="750" tag="106" id="672">
                                             <rect key="frame" x="83" y="7" width="130" height="22"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="677">
@@ -950,7 +944,7 @@
                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <textField verticalHuggingPriority="750" id="674">
+                                        <textField verticalHuggingPriority="750" tag="206" id="674">
                                             <rect key="frame" x="278" y="7" width="130" height="22"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="675">
@@ -968,7 +962,7 @@
                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <textField verticalHuggingPriority="750" id="680">
+                                        <textField verticalHuggingPriority="750" tag="104" id="680">
                                             <rect key="frame" x="83" y="78" width="130" height="22"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="685">
@@ -986,7 +980,7 @@
                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <textField verticalHuggingPriority="750" id="682">
+                                        <textField verticalHuggingPriority="750" tag="204" id="682">
                                             <rect key="frame" x="278" y="78" width="130" height="22"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="683">
@@ -1005,7 +999,7 @@
                                             </textFieldCell>
                                         </textField>
                                         <textField verticalHuggingPriority="750" id="Oft-mS-kAJ">
-                                            <rect key="frame" x="84" y="307" width="130" height="22"/>
+                                            <rect key="frame" x="84" y="307" width="324" height="22"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="Z6E-HC-cRK">
                                                 <font key="font" metaFont="system"/>
@@ -1034,6 +1028,12 @@
                                     </subviews>
                                 </view>
                             </tabViewItem>
+                            <tabViewItem label="Header" identifier="3" id="Mar-A0-YpI">
+                                <view key="view" id="eSQ-5o-iLa">
+                                    <rect key="frame" x="10" y="33" width="447" height="332"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                            </tabViewItem>
                         </tabViewItems>
                     </tabView>
                     <popUpButton verticalHuggingPriority="750" id="BLQ-4l-bZK">
@@ -1044,8 +1044,12 @@
                             <font key="font" metaFont="menu"/>
                             <menu key="menu" title="OtherViews" id="8LZ-nC-O0J">
                                 <items>
-                                    <menuItem title="GET" id="7Ht-KD-qsN"/>
-                                    <menuItem title="POST" tag="1" indentationLevel="1" id="GEI-D4-T5U"/>
+                                    <menuItem title="GET" id="7Ht-KD-qsN">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                    </menuItem>
+                                    <menuItem title="POST" tag="1" id="GEI-D4-T5U">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                    </menuItem>
                                 </items>
                             </menu>
                         </popUpButtonCell>
@@ -1062,6 +1066,7 @@
                 <outlet property="responseWebView" destination="AxK-j4-0H8" id="ZMt-3f-Gp3"/>
                 <outlet property="resultTextView" destination="651" id="Me3-gO-BAP"/>
                 <outlet property="runButton" destination="606" id="sTN-vF-ZyX"/>
+                <outlet property="tabView" destination="622" id="kPM-03-TOv"/>
                 <outlet property="urlField" destination="585" id="1Jc-wW-wbj"/>
                 <outlet property="window" destination="371" id="532"/>
             </connections>
